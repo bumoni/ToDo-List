@@ -4,12 +4,15 @@ const createAuth = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [data, setData] = useState([]);
-
+  const [dataTemp, setDataTemp] = useState([]);
+  const [filter,setFilter]=useState("All");
   return (
     <createAuth.Provider
       value={{
         data,
-        setData
+        setData,
+        dataTemp,
+        setDataTemp,filter,setFilter
       }}
     >
       {children}
