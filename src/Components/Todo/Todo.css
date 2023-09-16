@@ -1,0 +1,31 @@
+.Todo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Todo__element {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.main_div {
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 10px;
+  height: 200px;
+  position: relative;
+}
+.DeleteBTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red !important;
+  color: white;
+}
+.CompleteBTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow !important;
+  margin-right: 5px;
+}

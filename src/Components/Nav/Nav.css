@@ -1,0 +1,10 @@
+.nav {
+  background-color: lightgrey;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Input {
+  margin-bottom: 5px;
+}
